@@ -1,2 +1,2 @@
 # UniChest
-More details will be added after acceptance.
+The code is coming soon.
