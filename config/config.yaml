@@ -1,0 +1,37 @@
+train_entity_file: './A1_DATA/radgraph_umls.json'
+train_fg_query_file_v1: './train_all_merge.csv'
+
+siimacr_file: './A1_DATA/test_SIIMACR.csv'
+
+shenzhen_file : './A1_DATA/shenzhen.csv'
+
+openi_test_file: './A1_DATA/openifinal.csv'
+
+mrsty_file: './A1_DATA/MRSTY.csv'
+
+chestxray_train_file: './A1_DATA/ChestXray14/binary_train.csv'
+chestxray_valid_file: './A1_DATA/ChestXray14/binary_valid.csv'
+chestxray_test_file: './A1_DATA/ChestXray14/official_test.csv'
+
+chexpert_train_file: './A1_DATA/CheXpert/train.csv'
+chexpert_valid_file: './A1_DATA/CheXpert/valid.csv'
+chexpert_test_file: './A1_DATA/CheXpert/test.csv'
+
+
+padchest_all_test_file: './A1_DATA/Physician_label193_lr.csv'
+
+vindrcxr_test_file: ./A1_DATA/VINDR_test.csv'
+
+image_res: 512
+batch_size: 32
+test_batch_size: 32
+num_classes: 40
+temp: 0.07
+mlm_probability: 0.15
+queue_size: 8192
+momentum: 0.995
+alpha: 0.4
+lam: [1.0,0.4]
+
+optimizer: {opt: adamW, lr: 0.00005, weight_decay: 0.02}
+schedular: {sched: cosine, lr: 0.00005, epochs: 100, min_lr: 0.000001, decay_rate: 1, warmup_lr: 0.000001, warmup_epochs: 20, cooldown_epochs: 0}
