@@ -1,4 +1,5 @@
-#  [In Submission] UniChest
+#  [TMI Submission] UniChest
+This is the official repository of UniChest (TMI Submission) with the source code and the pretrained model weights.
 
 ### Structure of code
 
