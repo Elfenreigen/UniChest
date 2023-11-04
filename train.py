@@ -28,7 +28,7 @@ from transformers import AutoModel,BertConfig,AutoTokenizer
 from factory import utils
 from scheduler import create_scheduler
 from optim import create_optimizer
-from engine.train import train,valid_on_cheXpert,valid_on_chestxray14, valid_on_ruijin
+from engine.train import train,valid_on_cheXpert,valid_on_chestxray14
 from models.clip_tqn import CLP_clinical,ModelRes,TQN_Model,TQN_Model_Add,ModelDense,CLP_clinical2
 from models.tokenization_bert import BertTokenizer
 from dataset.dataset_entity import MIMIC_Dataset,Mergetrain_Dataset, Chestxray14_Dataset,CheXpert_Dataset
