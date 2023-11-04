@@ -1,5 +1,5 @@
 #  [TMI Submission] UniChest
-This is the official repository of UniChest (TMI Submission) with the source code and the pre-trained model weights. Pre-trained model can be downloaded here[https://drive.google.com/file/d/1V91ppG1M-IZcSFDyTBa4FNnMST9_vnkV/view?usp=sharing].
+This is the official repository of UniChest (TMI Submission) with the source code and the pre-trained model weights. Pre-trained model can be downloaded from https://drive.google.com/file/d/1V91ppG1M-IZcSFDyTBa4FNnMST9_vnkV/view?usp=sharing.
 
 
 ### Structure of code
