@@ -1,15 +1,15 @@
 #  [TMI Submission] UniChest
-This is the official repository of UniChest (TMI Submission) with the source code and the pretrained model weights.
+This is the official repository of UniChest (TMI Submission) with the source code and the pre-trained model weights.
 
 
 ### Structure of code
 
 ## Pre-training
 
-**Conquer Stage**
+#### Conquer Stage
 `CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 train.py --main_ratio 1 --bias_ratio 0 --moe_ratio 0 --output_dir --aws_output_dir`
 
-**Divide Stage**
+#### Divide Stage
 `CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 train.py --main_ratio 0.5 --bias_ratio 0.5 --moe_ratio 1 --output_dir --aws_output_dir --finetune`
 
 ###### Arguments
@@ -24,7 +24,7 @@ This is the official repository of UniChest (TMI Submission) with the source cod
 
 ###### Arguments
 
-- `--aws_output_dir` is the the path of the checkpoint
+- `--aws_output_dir` is the path of the checkpoint
 - `--test_data` is dataset name
 - `--save_result_dir` is path to save ground truth and prediction results
 
