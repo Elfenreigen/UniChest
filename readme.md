@@ -1,34 +1,34 @@
 #  [TMI Submission] UniChest
-This is the official repository of UniChest (TMI Submission) with the source code and the pre-trained model weights. Pre-trained model can be downloaded from https://drive.google.com/file/d/1V91ppG1M-IZcSFDyTBa4FNnMST9_vnkV/view?usp=sharing.
-
-
-### Structure of code
+This is the official repository of UniChest (TMI Submission) with the source code and the pre-trained model weights. 
 
 ## Pre-training
 
-#### Conquer Stage
+### Conquer Stage
 `CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 train.py --main_ratio 1 --bias_ratio 0 --moe_ratio 0 --output_dir --aws_output_dir`
 
-#### Divide Stage
+### Divide Stage
 `CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 train.py --main_ratio 0.5 --bias_ratio 0.5 --moe_ratio 1 --output_dir --aws_output_dir --finetune`
 
-###### Arguments
+### Arguments
 
 - `--output_dir` is the directory to save logs
 - `--aws_output_dir` is the directory to save checkpoints
 - `--finetune` is the path of the checkpoint of the _Conquer Stage_
 
+### Pre-trained model weights
+The pre-trained model can be downloaded from https://drive.google.com/file/d/1V91ppG1M-IZcSFDyTBa4FNnMST9_vnkV/view?usp=sharing.
 
 ## Testing
 `python main_test.py --main_ratio 0.5 --bias_ratio 0.5 --aws_output_dir --test_data --save_result_dir`
 
-###### Arguments
+### Arguments
 
 - `--aws_output_dir` is the path of the checkpoint
 - `--test_data` is dataset name
 - `--save_result_dir` is path to save ground truth and prediction results
 
 
+<!--
 ### Structure of code
 
 ```shell
@@ -76,3 +76,4 @@ This is the official repository of UniChest (TMI Submission) with the source cod
 └── train.py
 
 ```
+-->
