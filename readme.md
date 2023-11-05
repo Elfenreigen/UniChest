@@ -4,10 +4,14 @@ This is the official repository of UniChest (TMI Submission) with the source cod
 ## Pre-training
 
 ### Conquer Stage
-`CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 train.py --main_ratio 1 --bias_ratio 0 --moe_ratio 0 --output_dir --aws_output_dir`
+```
+CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 train.py --main_ratio 1 --bias_ratio 0 --moe_ratio 0 --output_dir --aws_output_dir
+```
 
 ### Divide Stage
-`CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 train.py --main_ratio 0.5 --bias_ratio 0.5 --moe_ratio 1 --output_dir --aws_output_dir --finetune`
+```
+CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 train.py --main_ratio 0.5 --bias_ratio 0.5 --moe_ratio 1 --output_dir --aws_output_dir --finetune
+```
 
 ### Arguments
 
@@ -19,7 +23,9 @@ This is the official repository of UniChest (TMI Submission) with the source cod
 The pre-trained model can be downloaded from [google drive](https://drive.google.com/file/d/1V91ppG1M-IZcSFDyTBa4FNnMST9_vnkV/view?usp=sharing).
 
 ## Testing
-`python main_test.py --main_ratio 0.5 --bias_ratio 0.5 --aws_output_dir --test_data --save_result_dir`
+```
+python main_test.py --main_ratio 0.5 --bias_ratio 0.5 --aws_output_dir --test_data --save_result_dir
+```
 
 ### Arguments
 
