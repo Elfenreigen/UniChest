@@ -16,7 +16,7 @@ This is the official repository of UniChest (TMI Submission) with the source cod
 - `--finetune` is the path of the checkpoint of the _Conquer Stage_
 
 ### Pre-trained model weights
-The pre-trained model can be downloaded from https://drive.google.com/file/d/1V91ppG1M-IZcSFDyTBa4FNnMST9_vnkV/view?usp=sharing.
+The pre-trained model can be downloaded from [google drive](https://drive.google.com/file/d/1V91ppG1M-IZcSFDyTBa4FNnMST9_vnkV/view?usp=sharing).
 
 ## Testing
 `python main_test.py --main_ratio 0.5 --bias_ratio 0.5 --aws_output_dir --test_data --save_result_dir`
