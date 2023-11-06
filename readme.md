@@ -24,7 +24,7 @@ The pre-trained model can be downloaded from [google drive](https://drive.google
 
 ## Testing
 ```
-python main_test.py --main_ratio 0.5 --bias_ratio 0.5 --aws_output_dir --test_data --save_result_dir
+python test.py --main_ratio 0.5 --bias_ratio 0.5 --aws_output_dir --test_data --save_result_dir
 ```
 
 ### Arguments
