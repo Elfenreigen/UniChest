@@ -31,7 +31,7 @@ python main_test.py --main_ratio 0.5 --bias_ratio 0.5 --aws_output_dir --test_da
 
 - `--aws_output_dir` is the path of the checkpoint
 - `--test_data` is dataset name
-- `--save_result_dir` is path to save ground truth and prediction results
+- `--save_result_dir` is the path to save ground truth and prediction results
 
 
 <!--
