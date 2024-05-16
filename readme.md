@@ -1,6 +1,5 @@
 <h1 align="center">UniChest: Conquer-and-Divide Pre-training for Multi-Source Chest X-Ray Classification</h1>
 
-
 <p style="text-align: center;">IEEE Transactions on Medical Imaging, 2024</p>
 
 
