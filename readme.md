@@ -1,7 +1,8 @@
 #  [IEEE Transactions on Medical Imaging] UniChest: Conquer-and-Divide Pre-training for Multi-Source Chest X-Ray Classification
 This is the official repository of **UniChest** (IEEE-TMI Accepted). 
-* [Project Website](https://tianjiedai.github.io/unichest/)
-* [Paper Link (Early Access)](https://ieeexplore.ieee.org/abstract/document/10478603)
+* 💻 [Project Website](https://tianjiedai.github.io/unichest/)
+* 📖 [Paper Link (Early Access)](https://ieeexplore.ieee.org/abstract/document/10478603)
+* 📁 [CSV File Link](https://drive.google.com/file/d/1LMiipnq-EouN2_wguSTfwCTBKREMKikP/view?usp=sharing)
 ## Pre-training
 
 ### Conquer Stage
