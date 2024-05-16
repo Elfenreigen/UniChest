@@ -1,6 +1,7 @@
-#  [TMI Submission] UniChest
-This is the official repository of UniChest (TMI Submission) with the source code and the pre-trained model weights. 
-
+#  [IEEE Transactions on Medical Imaging] UniChest: Conquer-and-Divide Pre-training for Multi-Source Chest X-Ray Classification
+This is the official repository of **UniChest** (IEEE-TMI Accepted). 
+* [Project Website](https://tianjiedai.github.io/unichest/).
+* [Paper Link (Early Access)](https://ieeexplore.ieee.org/abstract/document/10478603)
 ## Pre-training
 
 ### Conquer Stage
