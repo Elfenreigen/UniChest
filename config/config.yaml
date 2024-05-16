@@ -1,5 +1,5 @@
 train_entity_file: './A1_DATA/radgraph_umls.json'
-train_fg_query_file_v1: './train_all_merge.csv'
+train_fg_query_file_v1: './A1_DATA/train_all_merge.csv'
 
 siimacr_file: './A1_DATA/test_SIIMACR.csv'
 
