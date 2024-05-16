@@ -8,8 +8,8 @@
 </p>
 
 
+<align="center">IEEE Transactions on Medical Imaging, 2024</>
 
-IEEE Transactions on Medical Imaging, 2024
 
 
 * 💻 [Project Website](https://tianjiedai.github.io/unichest/)
