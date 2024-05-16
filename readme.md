@@ -8,7 +8,7 @@
 </p>
 
 
-<h2 align="center">IEEE Transactions on Medical Imaging, 2024</h2>
+<p style="text-align: center;">IEEE Transactions on Medical Imaging, 2024</p>
 
 
 
