@@ -1,6 +1,6 @@
 <h1 align="center">[IEEE-TMI] UniChest: Conquer-and-Divide Pre-training for Multi-Source Chest X-Ray Classification</h1>
 
-
+* 🎈 _UniChest_ was accepted by _IEEE Transactions on Medical Imaging_ on Mar. 21, 2024!
 * 💻 [Project Website](https://tianjiedai.github.io/unichest/)
 * 📖 [Paper Link (Early Access)](https://ieeexplore.ieee.org/abstract/document/10478603)
 * 📁 [CSV File Link](https://drive.google.com/file/d/1LMiipnq-EouN2_wguSTfwCTBKREMKikP/view?usp=sharing)
