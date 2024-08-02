@@ -1,8 +1,9 @@
 <h1 align="center">[IEEE-TMI] UniChest: Conquer-and-Divide Pre-training for Multi-Source Chest X-Ray Classification</h1>
 
 * 🎈 _UniChest_ was accepted by _IEEE Transactions on Medical Imaging_ on Mar. 21, 2024!
+* 🎈 _UniChest_ was published on _IEEE Transactions on Medical Imaging, Issue 8, Volume 43_!
 * 💻 [Project Website](https://tianjiedai.github.io/unichest/)
-* 📖 [Paper Link (Early Access)](https://ieeexplore.ieee.org/abstract/document/10478603)
+* 📖 [Paper Link](https://ieeexplore.ieee.org/abstract/document/10478603)
 * 📁 [CSV File Link](https://drive.google.com/file/d/1LMiipnq-EouN2_wguSTfwCTBKREMKikP/view?usp=sharing)
 
 **Abstract**: Vision-Language Pre-training (VLP) that utilizes the multi-modal information to promote the training efficiency and effectiveness, has achieved great success in vision recognition of natural domains and shown promise in medical imaging diagnosis for the Chest X-Rays (CXRs). However, current works mainly pay attention to the exploration on single dataset of CXRs, which locks the potential of this powerful paradigm on larger hybrid of multi-source CXRs datasets. We identify that although blending samples from the diverse sources offers the advantages to improve the model generalization, it is still challenging to maintain the consistent superiority for the task of each source due to the existing heterogeneity among sources. To handle this dilemma, we design a Conquer-and-Divide pre-training framework, termed as UniChest, aiming to make full use of the collaboration benefit of multiple sources of CXRs while reducing the negative influence of the source heterogeneity. Specially, the "Conquer" stage in UniChest encourages the model to sufficiently capture multi-source common patterns, and the "Divide" stage helps squeeze personalized patterns into different small experts (query networks). We conduct thorough experiments on many benchmarks, e.g., ChestX-ray14, CheXpert, Vindr-CXR, Shenzhen, Open-I and SIIM-ACR Pneumothorax, verifying the effectiveness of UniChest over a range of baselines, and release our codes and pre-training models at https://github.com/Elfenreigen/UniChest.
